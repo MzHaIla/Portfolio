@@ -6,6 +6,11 @@
   position: relative;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 /* Headbar section */
 
 .headbar {
@@ -34,13 +39,18 @@
   flex: 1;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 .headbar-nav a {
   color: white;
-  margin: 0 15px;
+  margin: 5px 10px;
   text-decoration: none;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .headbar-logo {
@@ -49,6 +59,13 @@
 
 .headbar-nav a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .headbar-nav a {
+    margin: 5px 8px;
+    font-size: 14px;
+  }
 }
 
 /* Content area */
@@ -320,4 +337,38 @@ p, h1, a {
 
 .footer-links a:hover {
   color: white;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-card img {
+  width: 250px;
+  border-radius: 8px;
+}
+
+.project-info {
+  flex: 1;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-card img {
+    width: 100%;
+    max-width: 300px;
+  }
 }

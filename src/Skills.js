@@ -6,7 +6,7 @@ function SkillsSection() {
     const skills = {
         frontend: ["HTML", "CSS", "ReactJS"],
         backend: ["Laravel", "Java", "NodeJS"],
-        tools: ["Git", "VSCode"],
+        tools: ["Git", "VSCode", "Backpack"],
     };
 
     return (
