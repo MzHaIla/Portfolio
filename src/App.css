@@ -293,9 +293,9 @@ p, h1, a {
 .project-card img {
   width: 250px;
   height: 160px;
-  object-fit: cover;
+  object-fit: contain;
+  /* flex:1; */
   border-radius: 8px;
-  background: #e6a5a5;
 }
 
 .project-info {
@@ -370,5 +370,9 @@ p, h1, a {
   .project-card img {
     width: 100%;
     max-width: 300px;
+  }
+
+  .skills-section {
+    margin-inline: 0;
   }
 }
