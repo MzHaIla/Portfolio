@@ -4,7 +4,7 @@ import SkillsSection from "./Skills";
 import ProjectsSection from "./Project";
 import ContactsSection from "./Contact";
 import { useEffect } from "react";
-import './App.css';
+import './css/App.css';
 
 function App() {
     useEffect(() => {
@@ -52,16 +52,16 @@ function App() {
             <section id="experience" className="experience-section">
                 <div className="experience-card fade-up">
                     <h2>Experience</h2>
-                    <button className="resume-btn fade-up">Download Resume</button>
+                    <a href="/resume.pdf" download className="resume-btn fade-up">Download Resume</a>
                     <div className="experience-item fade-right">
                         <h3>Junior Developer (PahangGo)</h3>
                         <span>May 2024 – Present</span>
-                        <p>I develop multiple websites and join projects... blah, blah, blah.</p>
+                        <p >Developed and maintained web applications using Bootstrap, PHP, and Laravel. Worked with clients to gather and document business requirements, and supported the development and integration of backend services, APIs, and databases.</p>
                     </div>
                     <div className="experience-item fade-right">
                         <h3>Intern - CRM Salesforce (Top Glove)</h3>
                         <span>Aug 2022 – Jan 2023</span>
-                        <p>Develop multiple websites and join projects... blah, blah, blah.</p>
+                        <p>Worked with the Salesforce CRM team to implement client Change Requests (CRs). Customized and configured Salesforce workflows, validation rules, and automation processes, and researched best practices for integrating card-scanner solutions with Salesforce.</p>
                     </div>
                 </div>
             </section>

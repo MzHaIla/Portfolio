@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './css/Skills.css';
 
 function SkillsSection() {
     const [selected, setSelected] = useState("frontend");

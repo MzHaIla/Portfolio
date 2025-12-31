@@ -157,6 +157,21 @@ p, h1, a {
   text-align: center;
 }
 
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.experience-item span {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.experience-item p {
+  text-align: justify;
+}
+
 /* Resume Button */
 .resume-btn {
   margin: 20px 0;
@@ -193,123 +208,6 @@ p, h1, a {
 .experience-item p {
   margin-top: 10px;
   color: #333;
-}
-
-/* Skills section */
-.skills-section {
-  padding: 60px 20px;
-  text-align: center;
-  background-color: #257291;
-  color: white;
-  margin-inline: 200px;
-}
-
-.skills-timeline {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 30px 0;
-}
-
-.circle {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: #ccc;
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.circle.active {
-  background: #124e66;
-  color: white;
-  box-shadow: 0 0 15px rgba(255,255,255,0.5);
-}
-
-.circle-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-}
-
-.line {
-  flex: 1;
-  height: 4px;
-  background: #ccc;
-  margin: 0 10px;
-}
-
-.skills-list {
-  margin-top: 20px;
-}
-
-.skill-tag {
-  display: inline-block;
-  margin: 8px;
-  padding: 8px 16px;
-  border-radius: 20px;
-  background: white;
-  color: #124e66;
-  font-weight: bold;
-}
-
-/* Projects Section */
-.projects-section {
-  background: #fff;
-  padding: 60px 20px;
-  text-align: center;
-  border-radius: 10px;
-  margin: 40px auto;
-  max-width: 1000px;
-}
-
-.projects-section h2 {
-  font-size: 28px;
-  margin-bottom: 40px;
-  border-bottom: 3px solid #124e66;
-  display: inline-block;
-  padding-bottom: 10px;
-}
-
-.projects-container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.project-card {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  justify-content: space-between;
-}
-
-.project-card img {
-  width: 250px;
-  height: 160px;
-  object-fit: contain;
-  /* flex:1; */
-  border-radius: 8px;
-}
-
-.project-info {
-  flex: 1;
-  text-align: left;
-}
-
-.project-info h3 {
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-.projects-container p {
-  color: black;
 }
 
 /* Footer */
