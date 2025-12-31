@@ -39,7 +39,7 @@ function App() {
             </header>
 
             <main className="App-content">
-                <h1 className="fade-up">Hola!</h1>
+                <h1 className="fade-up">Hola! 👋🏻</h1>
                 <p className="fade-up">I'm <span className="gradient-name">Farisah Zamri</span>, a Software Developer</p>
                 <p className="fade-up">I code, bug, deploy and repeat to make the web little less broken ✨</p>
                 <div className="fade-up">

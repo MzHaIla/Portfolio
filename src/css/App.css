@@ -157,21 +157,6 @@ p, h1, a {
   text-align: center;
 }
 
-.experience-item {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.experience-item span {
-  font-size: 0.9rem;
-  color: #777;
-}
-
-.experience-item p {
-  text-align: justify;
-}
-
 /* Resume Button */
 .resume-btn {
   margin: 20px 0;
@@ -192,6 +177,9 @@ p, h1, a {
 .experience-item {
   margin-top: 30px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .experience-item h3 {
@@ -208,6 +196,7 @@ p, h1, a {
 .experience-item p {
   margin-top: 10px;
   color: #333;
+  text-align: justify;
 }
 
 /* Footer */
