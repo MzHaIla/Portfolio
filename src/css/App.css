@@ -29,7 +29,7 @@ html, body {
   font-size: 1.5rem;
   text-decoration: none;
 
-  background: linear-gradient(90deg, #A130F2, #c7a3e1);
+  background: linear-gradient(90deg, #9b6565, #d53a3a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -100,7 +100,7 @@ p, h1, a {
 .gradient-name {
   font-weight: bold;
 
-  background: linear-gradient(90deg, #B8B9FF, #ad80ed);
+  background: linear-gradient(90deg, #a97777, #d53a3a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; /* fallback */

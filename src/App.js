@@ -56,7 +56,7 @@ function App() {
                     <div className="experience-item fade-right">
                         <h3>Junior Developer (PahangGo)</h3>
                         <span>May 2024 – Present</span>
-                        <p >Developed and maintained web applications using Bootstrap, PHP, and Laravel. Worked with clients to gather and document business requirements, and supported the development and integration of backend services, APIs, and databases.</p>
+                        <p >Developed and maintained web applications using Bootstrap, PHP, and Laravel. Worked with clients to gather document business requirements, supported the development, integration of backend services, APIs, and databases.</p>
                     </div>
                     <div className="experience-item fade-right">
                         <h3>Intern - CRM Salesforce (Top Glove)</h3>
