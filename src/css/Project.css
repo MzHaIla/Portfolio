@@ -30,8 +30,8 @@
 }
 
 .project-card img {
-  width: 250px;
-  height: 160px;
+  width: 200px;
+  height: 110px;
   object-fit: contain;
   /* flex:1; */
   border-radius: 8px;

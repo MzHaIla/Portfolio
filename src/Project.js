@@ -12,7 +12,7 @@ function ProjectsSection() {
             title: "E-Exam",
             description:
                 "Exam system to cater Pahang state online examination and marking schemes with integration to e-PTM site.",
-            img: "https://via.placeholder.com/250x160",
+            img: "img-placeholder.jpg",
             link: "https://exam.pahang.gov.my",
         },
         {
@@ -21,6 +21,13 @@ function ProjectsSection() {
                 "An application website to rent the land and stall in Cameron Highland under PKCH.",
             img: "pkch.png",
             link: "https://epermohonan.pkch.my",
+        },
+        {
+            title: "PahangGo Apps (Admin)",
+            description:
+                "An all-in-one application for parking purchases and payments of taxes, compounds, and utility bills.",
+            img: "pgo-logo.png",
+            link: "https://play.google.com/store/apps/details?id=com.gox_mobile&hl=en",
         },
     ];
 
